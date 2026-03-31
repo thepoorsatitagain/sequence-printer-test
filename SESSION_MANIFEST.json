@@ -1,0 +1,21 @@
+{
+  "project": "sequence-printer-test",
+  "brief_version": "0.4",
+  "session_date": "",
+  "input_zip": "sequence_printer_test_v0.1.0_20260331.zip",
+  "current_zip": "sequence_printer_test_v0.1.0_20260331.zip",
+  "iteration": 0,
+  "loop_count": 0,
+  "status": "received",
+  "gpt_verdict": "",
+  "claude_artifact": "",
+  "gpt_review_artifact": "",
+  "commit_hash_raw": "",
+  "commit_hash_review": "",
+  "handoff_artifact": "HANDOFF.md",
+  "handoff_commit": "",
+  "next_step": "Step 2 - Send to Claude",
+  "blocked_reason": "",
+  "escalation_flag": false,
+  "drift_checks": []
+}
