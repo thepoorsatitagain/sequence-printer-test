@@ -1,21 +1,27 @@
 {
   "project": "sequence-printer-test",
   "brief_version": "0.4",
-  "session_date": "",
+  "session_date": "2026-03-31",
   "input_zip": "sequence_printer_test_v0.1.0_20260331.zip",
-  "current_zip": "sequence_printer_test_v0.1.0_20260331.zip",
-  "iteration": 0,
-  "loop_count": 0,
-  "status": "received",
+  "current_zip": "sequence_printer_test_v0.1.1_20260331.zip",
+  "iteration": 1,
+  "loop_count": 1,
+  "status": "raw_committed",
   "gpt_verdict": "",
-  "claude_artifact": "",
+  "claude_artifact": "src/sequences.py",
   "gpt_review_artifact": "",
   "commit_hash_raw": "",
   "commit_hash_review": "",
   "handoff_artifact": "HANDOFF.md",
   "handoff_commit": "",
-  "next_step": "Step 2 - Send to Claude",
+  "next_step": "Step 4 - Send to GPT for review",
   "blocked_reason": "",
   "escalation_flag": false,
-  "drift_checks": []
+  "drift_checks": [
+    {
+      "iter": 1,
+      "result": "clean",
+      "note": "New instance, fresh project — Claude built directly in pipeline session"
+    }
+  ]
 }

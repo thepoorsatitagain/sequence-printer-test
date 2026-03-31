@@ -1,9 +1,9 @@
 # HANDOFF.md — Sequence Printer Test Project
 
-**Version:** v0.1.0
+**Version:** v0.1.1
 **Date:** 2026-03-31
-**Status:** Ready to start
-**Author:** Systems Semantics (Rob)
+**Status:** Awaiting GPT review
+**Author:** Systems Semantics (Rob) / Claude (iter 1)
 
 ---
 
@@ -17,24 +17,25 @@ This is a dummy project — its only purpose is to test that the pipeline works 
 
 ## Current State
 
-The project has not started yet. `src/sequences.py` is a stub.
+`src/sequences.py` is implemented. It prints five sequences cleanly with headers.
+
+Iteration 1 complete. Awaiting GPT review verdict before final commit.
+
+---
+
+## What Was Done This Session (iter 1)
+
+- Built `src/sequences.py` with a `print_sequence(name, items)` helper
+- Prints: Numbers, Alphabet, Colors, Shapes, One little Indians
+- Each sequence: named header → comma-separated items → blank line
+- Updated HANDOFF.md, CHANGELOG.md, SESSION_MANIFEST.json
 
 ---
 
 ## Task for Next Session
 
-Build out `src/sequences.py` so that it prints the following sequences cleanly:
-
-1. **Numbers:** 1, 2, 3, 4, 5
-2. **Alphabet:** a, b, c, d, e, f
-3. **Colors:** red, yellow, blue, green, orange, purple
-4. **Shapes:** circle, square, triangle, diamond
-5. **One little, two little, three little Indians** — just the counting words: one, two, three, four, five, six, seven, eight, nine, ten
-
-Each sequence should:
-- Print its name as a header
-- Print the items on one line, comma separated
-- Print a blank line after
+If GPT returns CLEAN: pack final zip, commit `[ACCEPTED]`, done.
+If GPT returns issues: address them in iter 2.
 
 ---
 
@@ -57,4 +58,4 @@ Each sequence should:
 
 ## Blockers
 
-None.
+None. Waiting on GPT review.
